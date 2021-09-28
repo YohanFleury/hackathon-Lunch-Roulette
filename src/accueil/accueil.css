@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   /* align-items: center; */
+}
+
+h1 {
+    font-family: Pacifico;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #30747D;
+}
+.big-ctn {
+    display: flex;
+    flex-direction: row;
+}
+button  {
+       Width: 352px;
+    Height: 64px; border-radius: 100px;
+    color: white;
+}
+.lunch-button {
+ 
+    /* Top: 676px;
+    Left: 112px; */
+   
+    background-color: #30747D;
+}
+.apero-button {
+   
+    background-color: #87C818;
+}
+.croissantage-button{
+    background-color: #FF5E92;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
