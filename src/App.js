@@ -1,14 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import MyButton from './components/MyButton';
+import React from 'react'
+
+
+
+import { restos } from './fakeDatas/resto';
+import RouletteLunch from './roulette/RouletteLunch';
+import Routes from './routes/Routes';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <MyButton name="Lunch" />
-      <MyButton name="Apéro" />
-      <MyButton name="Croissantage" />
-    </div>
+    <RouletteLunch />
+   
   );
 }
 

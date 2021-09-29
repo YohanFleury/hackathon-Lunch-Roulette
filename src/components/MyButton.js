@@ -1,10 +1,13 @@
 import React from 'react'
 
-const MyButton = ({ name }) => {
+
+const MyButton = ({ name, onClick }) => {
+
     return (
-        <div style={{ backgroundColor: 'yellow', borderRadius: '15px', width:'100px', marginBottom: '20px'}}>
-            {name}
-        </div>
+            <button onClick={onClick}>
+                {name}
+            </button>
+        
     )
 }
 
