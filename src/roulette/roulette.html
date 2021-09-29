@@ -6,26 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="roulette.css">
+    <script src="roulette.js"></script>
     <title>Document</title>
 </head>
 
 <body>
     <h1>Lunch roulette</h1>
-    <div class="blue_button_div">
+<!-- <p class="bread_crumbs">${bread_crumbs}</p> -->
+    <div class="buttons_div">
         <div class="blue_button" type="submit">1. Choisis tes filtres</div>
-        <p class="et_commercial">&</p>
-        <div class="blue_button" type="submit">2. Vas-y fais tourner ! </div>
+         <div class="white_button_div">
+            <button class="white_button"><p>Ah, mince, il pleut! </p><img src="../../public/☔.png" alt=""> </button>
+            <button class="white_button">Y'a Colline... sans glutten</button>
+            <button class="white_button big_button"><p>Végétarien... </p><img src="../../public/🍉.png" alt=""><p>(pas steack)</p></button>
+            <button class="white_button"><p>Vegan </p><img src="../../public/🐰🥕.png" alt="">  </button>
+        </div>
+        <div class="blue_button" type="submit">2. Vas-y fais tourner !</div>
     </div>
     <div class="second_container">
-        <div class="white_button_div">
-            <button class="white_button">Ah, mince, il pleut!</button>
-            <button class="white_button">Y'a Colline... sans glutten</button>
-            <button class="white_button">Végétarien... (pas steack)</button>
-            <button class="white_button">Vegan</button>
-        </div>
-        <div class="element-animation">
-            <p>Clique sur la roulette !</p>
-         </div>
+      <div id="roulette"></div> <img id="roulette" class="roulette" src="../../public/roue-de-fortune 1.png" alt="roulette"></div>
+        <!-- <div class="clic_et_resultat"><p>Clique sur la roulette !</p> -->
     </div>
 </body>
 
